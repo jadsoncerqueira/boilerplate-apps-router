@@ -1,7 +1,10 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image'
+import Script from 'next/script'
+import styles from './page.module.css'
 
 export default function Home() {
+  const foo = 'baa'
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -91,5 +94,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  );
+  )
 }
