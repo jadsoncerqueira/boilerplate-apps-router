@@ -10,7 +10,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": ["npm run lint", "prettier --write --ignore-unknown"]
+    "*.{js,jsx,ts,tsx}": "npm run lint"
   },
   "dependencies": {
     "next": "15.1.2",
