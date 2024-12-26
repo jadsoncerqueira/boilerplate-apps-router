@@ -7,10 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "clean": "next clean",
     "prepare": "husky"
-  },
-  "lint-staged": {
-    "*.tsx": ["npm run lint", "prettier --write --ignore-unknown"]
   },
   "dependencies": {
     "next": "15.1.2",
