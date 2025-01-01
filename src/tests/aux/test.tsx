@@ -1,10 +1,11 @@
 import { render, screen } from '@testing-library/react'
 
-import Main from '.'
+import Home from '../../../src/app/page'
 
 describe('Texte exemplo', () => {
   it('verificando renderização', () => {
-    render(<Main />)
+    render(<Home />)
+
     expect(
       screen.getByRole('heading', { name: /react avançado/i })
     ).toBeInTheDocument()
