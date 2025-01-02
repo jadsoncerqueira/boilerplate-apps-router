@@ -1,12 +1,12 @@
 name: ci
-on: [pull_request]
+on: [pull_request, push]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        user: actions/checkout@v3
+        users: actions/checkout@v3
 
       - name: Setup Node
         users: actions/setup-node@v3
