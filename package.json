@@ -11,7 +11,8 @@
     "start": "next start",
     "lint": "next lint",
     "clean": "next clean",
-    "prepare": "husky"
+    "prepare": "husky",
+    "generate": "npx plop --plopfile generators/plopfile.js"
   },
   "dependencies": {
     "next": "15.1.2",
@@ -40,6 +41,7 @@
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "lint-staged": "^15.2.11",
+    "plop": "^4.0.1",
     "prettier": "^3.4.2",
     "typescript": "^5"
   }

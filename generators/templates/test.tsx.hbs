@@ -1,0 +1,13 @@
+import { render, screen } from '@testing-library/react'
+
+import {{pascalCase name}} from '.'
+
+describe('<{{pascalCase name}} />', () => {
+  it('verificando renderização', () => {
+    render(<{{pascalCase name}} />)
+
+    expect(
+      screen.getByText('{{pascalCase name}}')
+    ).toBeInTheDocument()
+  })
+})

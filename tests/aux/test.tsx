@@ -6,8 +6,6 @@ describe('Texte exemplo', () => {
   it('verificando renderização', () => {
     render(<Home />)
 
-    expect(
-      screen.getByRole('heading', { name: /meu template next.js/i })
-    ).toBeInTheDocument()
+    expect(screen.getByText('Meu boilerplate Next.js')).toBeInTheDocument()
   })
 })

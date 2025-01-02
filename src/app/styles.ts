@@ -3,5 +3,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  color: blue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
