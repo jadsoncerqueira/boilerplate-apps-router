@@ -6,6 +6,6 @@ describe('Texte exemplo', () => {
   it('verificando renderização', () => {
     render(<Home />)
 
-    expect(screen.getByText('Meu boilerplate Next.js')).toBeInTheDocument()
+    expect(screen.getByText('Boilerplate Next.js')).toBeInTheDocument()
   })
 })

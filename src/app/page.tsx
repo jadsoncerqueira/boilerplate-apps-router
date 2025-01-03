@@ -5,7 +5,7 @@ import * as S from './styles'
 export default function Home() {
   return (
     <S.Wrapper>
-      <p>Meu boilerplate Next.js</p>
+      <p>Boilerplate Next.js</p>
     </S.Wrapper>
   )
 }
